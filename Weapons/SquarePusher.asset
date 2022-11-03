@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bce78f4176dfc024c8f55d73759596a4, type: 3}
+  m_Name: SquarePusher
+  m_EditorClassIdentifier: 
+  trajectory: {fileID: 11400000, guid: 7d11789f363f74c458257063cf3c6174, type: 2}
+  emitter: {fileID: 11400000, guid: fc0a55dc1cf961c459ff2af227780c9e, type: 2}
+  movementModifier: 0.812
+  fireRate: 1
+  magazineSize: 8
+  reloadTime: 0
+  damage: 6
+  trajectoryProperties:
+    rid: 437155174612992143
+  emitterProperties:
+    rid: 437155218942591114
+  bulletSettings:
+    prefab: {fileID: 532592764741739778, guid: 555f1e87923fc3a4ca6b6696ed98748d, type: 3}
+    mesh: {fileID: 7398509403596113055, guid: 5afd0586776adef46b90ce62c65c9438, type: 3}
+    mat: {fileID: 2100000, guid: 244ad0887251c424283d1034ddf049ec, type: 2}
+    bulletSize: {x: 0.4, y: 0.5}
+    relativeTrailWidth: 0.7
+    bulletTrailLength: {x: 0.05, y: 0.1}
+  copyPropertiesButton:
+    height: 0
+  weaponData:
+    trajectory: {fileID: 11400000, guid: 7d11789f363f74c458257063cf3c6174, type: 2}
+    emitter: {fileID: 11400000, guid: fc0a55dc1cf961c459ff2af227780c9e, type: 2}
+    movementModifier: 0.812
+    fireRate: 1
+    magazineSize: 8
+    reloadTime: 0
+    damage: 6
+    trajectoryProperties:
+      rid: 437155174612992143
+    emitterProperties:
+      rid: 437155218942591114
+    bulletSettings:
+      prefab: {fileID: 532592764741739778, guid: 555f1e87923fc3a4ca6b6696ed98748d, type: 3}
+      mesh: {fileID: 7398509403596113055, guid: 5afd0586776adef46b90ce62c65c9438, type: 3}
+      mat: {fileID: 2100000, guid: 244ad0887251c424283d1034ddf049ec, type: 2}
+      bulletSize: {x: 0.4, y: 0.5}
+      relativeTrailWidth: 0.7
+      bulletTrailLength: {x: 0.05, y: 0.1}
+  references:
+    version: 2
+    RefIds:
+    - rid: 437155174612992143
+      type: {class: LinearTrajectory/Properties, ns: elZach.BulletEngine, asm: elzach.BulletEngine}
+      data:
+        speed: {x: 2, y: 2}
+        range: {x: 30, y: 30}
+    - rid: 437155218942591114
+      type: {class: MeshEmitter/Properties, ns: elZach.BulletEngine, asm: elzach.BulletEngine}
+      data:
+        mesh: {fileID: 5869761508291144630, guid: d221ec6c738d50a438d6eaa1e798c66a, type: 3}
+        rotation: {x: 0, y: 0, z: 0}
+        speedMult: 1
+        spawnAllAtOnce: 1

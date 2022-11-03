@@ -1,0 +1,21 @@
+{
+  "name": "com.elzach.bulletengine",
+  "description": "Baseline for tracking bullets",
+  "author": {
+    "name": "elZach",
+    "email": "dont@message.me",
+    "url": "-"
+  },
+  "version": "0.0.1",
+  "unity": "2020.3",
+  "unityRelease": "0f1",
+  "displayName": "elZach BulletEngine",
+  "keywords": [
+    "unity"
+  ],
+  "dependencies": {
+    "com.elzach.extensions": "0.0.14",
+	"com.elzach.objectpooling": "0.0.1"
+  },
+  "hideInEditor": false
+}
